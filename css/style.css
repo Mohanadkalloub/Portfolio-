@@ -1,0 +1,89 @@
+:root {
+    --dark-color : #19283f;
+    --green-color :#33d1cc;
+}
+html::-webkit-scrollbar{
+    width: 1rem;
+}
+html::-webkit-scrollbar-track{
+    background-color: var(--dark-color);
+}
+html::-webkit-scrollbar-thumb{
+    background: var(--green-color);
+    border-radius: 0.5rem;
+}
+::selection{
+    background-color: var(--green-color);
+    color: var(--dark-color);
+}
+* {
+    font-family: 'Roboto', sans-serif;
+}
+.navbar {
+    background-color: var(--dark-color);
+}
+.navbar .navbar-brand {
+    color: #fff;
+}
+.navbar .navbar-toggler {
+    color: #fff;
+    border-color: #fff;
+}
+.navbar .navbar-toggler[aria-expanded="true"]{
+    color: #fff;
+}
+.navbar-nav .nav-link {
+    color: #fff;
+}
+.section {
+    height: 100vh;
+    background-color: var(--dark-color);
+    color: #fff;
+}
+.btn {
+    color: #fff;
+}
+.row img {
+    width: 100%;
+}
+
+.about .progholder {
+    margin-bottom: 15px;
+}
+.about .progholder h6 {
+    margin-bottom: 10px;
+}
+.about .progholder .porg {
+    margin-bottom: 15px;
+    background-color: #707070;
+    height: 3px;
+}
+.about .progholder .porg span {
+    display: block;
+    background-color: var(--green-color);
+    height: 100%;
+}
+.about .box img {
+    border-radius: 0.5rem;
+    margin-left: 5%;
+}
+.services .box{
+    text-align: center;
+    border: var(--border);
+    box-shadow: var(--box-shadow);
+    border-radius: .5rem;
+    padding: 4rem 2rem;
+}
+.services .box img {
+    height: 200px;
+}
+.start {
+    background-color: var(--dark-color);
+}
+.footer {
+    background-color: var(--dark-color);
+}
+.footer .links a {
+    text-decoration: none;
+    color: #fff;
+}
